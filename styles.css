@@ -1,0 +1,52 @@
+body {
+    font-family: monospace;
+    background-color: lightgray;
+}
+
+h2, p, .readme-wrapper {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: purple;
+}
+
+a:hover {
+    cursor: pointer;
+    font-weight: bolder;
+    color: orange;
+}
+
+span {
+    color: red;
+    font-weight: 100;
+}
+
+.boxes {
+    margin: 1em;
+    padding: 5em;
+    border: .7em solid black;
+    border-radius: 7em;
+    width: 30em;
+    display: block;
+}
+
+#box1 {
+    background-color: lightcyan;
+}
+
+#box2 {
+    background-color: lightblue;
+    /* position: absolute; */
+    /* left: 45em;
+    bottom: 25.5em; */
+}
+
+#box3 {
+    background-color: lightcoral;
+}
+
+#box4 {
+    background-color: lightgoldenrodyellow;
+}
